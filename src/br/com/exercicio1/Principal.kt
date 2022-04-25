@@ -32,7 +32,11 @@ fun main() {
         println(funcionario.sobrenome)
         println(funcionario.horasTrabalhadas)
         println(funcionario.valorPorHora)
-
+        funcionario.calcularSalario()
+        funcionario.incrementarHoras(8.0)
+        funcionario.calcularSalario()
+        println("-----###-------###--------###--------")
+        println()
     }
 
 }

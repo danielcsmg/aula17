@@ -32,5 +32,7 @@ fun main() {
     print("Os filmes em cartaz são: ")
     filmes.forEach{ filme ->
         println(filme.titulo)
+        println("-----###-------###--------###--------")
+        println()
     }
 }
